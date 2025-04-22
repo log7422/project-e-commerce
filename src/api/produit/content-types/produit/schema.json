@@ -13,7 +13,13 @@
     "nom": {
       "type": "string"
     },
-    "prix": {
+    "description": {
+      "type": "text"
+    },
+    "Actual Price": {
+      "type": "decimal"
+    },
+    "Discounted Price": {
       "type": "decimal"
     },
     "image": {
@@ -26,14 +32,11 @@
       "type": "media",
       "multiple": false
     },
-    "stock": {
+    "quantite": {
       "type": "integer"
     },
-    "promotion": {
+    "In Promo": {
       "type": "boolean"
     },
-    "date_ajout": {
-      "type": "date"
-    }
   }
 }
